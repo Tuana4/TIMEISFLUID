@@ -1,20 +1,21 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* Ensures no unexpected spacing */
+    box-sizing: border-box;
 }
 
 html, body {
     width: 100vw;
     height: 100vh;
-    background-color: black; /* Ensures full black background */
     overflow: hidden; /* Prevents scrolling */
+    background-color: black; /* Ensures black background */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-canvas {
-    display: block; /* Removes any default spacing */
-    background: black; /* Ensures the canvas background is black */
+img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover; /* Makes the image cover the screen */
 }
