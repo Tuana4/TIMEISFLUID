@@ -1,4 +1,15 @@
 body {
     margin: 0;
     overflow: hidden; /* Prevents scrolling */
+}html, body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: black; /* Ensures full black background */
+    overflow: hidden; /* Prevents scrolling */
 }
+canvas {
+    display: block; /* Removes any default spacing */
+}
+
