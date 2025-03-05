@@ -68,3 +68,14 @@ function windowResized() {
     resizeCanvas(windowWidth, windowHeight);
     background(bg);
 }
+function setup() {
+    let cnv = createCanvas(windowWidth, windowHeight);
+    cnv.position(0, 0);
+    cnv.style('display', 'block');
+    cnv.style('z-index', '-1'); // Moves canvas behind everything
+    noLoop();
+}
+
+function windowResized() {
+    resizeCanvas(windowWidth, windowHeight);
+}
